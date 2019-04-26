@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="5dp"
+    android:padding="5dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bordertextyellow">
+
+    <ImageView
+        android:id="@+id/imgComics"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:padding="10px" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="10px">
+
+        <TextView
+            android:id="@+id/titleComics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titre du comics"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dateComics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:text="Date"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+</LinearLayout>
